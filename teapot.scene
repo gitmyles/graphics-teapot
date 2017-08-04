@@ -1,0 +1,12 @@
+camera 0 0 2  0 0 0  0 1 0
+clip -1 1  -1 1  1 100
+image 500 500
+#light 10 0 0  0 0 0  1 1 1  1 1 1
+light -5 0 9  .5 .5 .5  1 1 1  1 1 1
+obj UDRay/data/teapot.obj -1 0 0  1 1 1  -30 45 0  0 1 0  0 1 0  1 1 1  2 2  1 0
+obj UDRay/data/teapot.obj 0 0 -2  2 2 2  -30 45 0  0 0 1  0 0 1  1 1 1  2 2  1 0
+sphere 2 0 -2 1 1 0 0  1 0 0  1 1 1  2 1  0 0
+#background solid 0 .25 0
+background cubemap UDRay/data/uffizi_cross.ppm
+#background cubemap UDRay/data/waterfall_cross.ppm
+#background cubemap UDRay/data/cosmology_cross.ppm
