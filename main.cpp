@@ -2,7 +2,7 @@
 // UD Ray V6
 
 // copyright 2016, University of Delaware
-// Christopher Rasmussen
+// Christopher Rasmussen w/ contributions from Myles Johnson-Gray
 //----------------------------------------------------------------------------
 
 #include <stdio.h>
